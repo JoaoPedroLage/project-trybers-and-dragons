@@ -1,6 +1,6 @@
 export default abstract class Race {
-  private static instanceCount = 0;
-  
+  static instanceCount = 0;
+
   constructor(private _name: string, private _dexterity: number) {
     this._name = _name;
     this._dexterity = _dexterity;
